@@ -96,7 +96,6 @@ public final class MainPlayerUi extends VideoPlayerUi implements View.OnLayoutCh
     // fullscreen player
     private ItemTouchHelper itemTouchHelper;
 
-
     /*//////////////////////////////////////////////////////////////////////////
     // Constructor, setup, destroy
     //////////////////////////////////////////////////////////////////////////*/
@@ -953,7 +952,6 @@ public final class MainPlayerUi extends VideoPlayerUi implements View.OnLayoutCh
         }
     }
     //endregion
-
 
     /*//////////////////////////////////////////////////////////////////////////
     // Getters
