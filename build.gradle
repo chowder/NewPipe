@@ -23,3 +23,9 @@ allprojects {
         maven { url "https://repo.clojars.org" }
     }
 }
+
+buildTypes {
+    release {
+        signingConfig = signingConfigs.getByName("debug")
+    }
+}
